@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Location</title>
+        <link rel="stylesheet" href="location.css">
+    </head>
+    <body>
+        <div style="margin:20px;">
+            <div id=image onmouseover="findPosition('#image')">
+                <img src="https://images4.alphacoders.com/660/66068.jpg" id=image>
+            </div>
+            <div id=nav>
+                <button id=home onmouseover="findPosition('#home')">Home</button>
+                <button id=about onmouseover="findPosition('#about')">About US</button>
+                <button id=contact onmouseover="findPosition('#contact')">Contact US</button>
+                <button id=register onmouseover="findPosition('#register')">Register</button>
+            </div>
+        </div>
+        <div>
+            Location : <input type=text id="result">
+        </div>
+        <script src="location.js"></script>
+    </body>
+</html>
